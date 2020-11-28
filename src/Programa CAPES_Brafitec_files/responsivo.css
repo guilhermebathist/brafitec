@@ -1,0 +1,146 @@
+/* Large desktops and laptops */
+@media (min-width: 1400px) {}
+@media (min-width: 1232px) {}
+@media (max-width: 1194px) {}
+@media (max-width: 1024px){
+
+}
+
+@media (min-width: 1200px) and (max-width: 1487px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (max-width: 991px){
+
+	/* Resultado da Busca */
+	.resultado-busca-abas .btn-tab 				{width:30%;}
+	
+	
+	/* BANNERS destaque das capas */
+	.carrossel-banners-destaque .carousel-control-next,
+	.carrossel-banners-destaque .carousel-control-prev 			{top: 0 !important;}
+
+}
+
+@media (max-width: 767px){
+
+	/* Itens comuns para qualquer parte do projeto */
+	.em-alta a {border-radius: 5px; display: block; width:100%; height:initial !important; text-align: center; background: #F7F7F7; white-space: initial; }
+
+	/* Resultado da Busca */
+	.tabs							{display:block}
+	.tabs .btn-tab						{display:block; width:100%; margin:0}
+	.resultado-busca-abas .tab				{border-top:1px solid #fff}
+	.resultado-busca-abas .btn-tab				{position:relative}
+	.resultado-busca-abas .btn-tab:after			{content:"+"; font-size:60px; font-weight:400; position:absolute; top:40%; right:10px; line-height:0}
+	.resultado-busca-abas .btn-tab.active:after		{content:"-"}
+
+	/* Capa ESPECIAL */
+	.capa-especial #interna .rastro 			{top:initial;}
+	.capa-especial #interna .rastro a 			{color:initial; }
+	.capa-especial #interna .rastro .rastro-inicial 	{background-position:-269px -145px}
+	.capa-especial #interna .rastro-separador 		{background-position:-133px -218px!important}
+	.chamada-abstrata .intro-text 				{background:rgba(41, 105, 189, 0.9); width:100%; left:0; }
+
+
+	/* BANNERS destaque das capas */
+	.carrossel-banners-destaque .carousel-inner .titulo 			{right: 0; top:10px; width: 100%; padding: 10px; text-align:center }
+	.carrossel-banners-destaque .carousel-inner span 			{display: block; }
+	.carrossel-banners-destaque .carousel-inner .texto-titulo 		{display: none !important; }
+	.carrossel-banners-destaque .carousel-inner .bt-saiba-mais 		{float: none; padding: 50px;border-radius: 30px; border: 2px solid #222!important; padding: 12px 15px 8px 15px; margin: 5px; -webkit-box-sizing: border-box; box-sizing: border-box; font-size: 1em; font-weight: 700; color:#222 !important; white-space: nowrap; display: inline-block !important; text-transform: uppercase; background:#fff !important}	
+	.carrossel-banners-destaque .carousel-control-next 			{right:-15px} 
+	.carrossel-banners-destaque .carousel-control-prev 			{left:-15px}
+	.carrossel-banners-destaque .carousel-control-next-icon, 
+	.carrossel-banners-destaque .carousel-control-prev-icon 		{background-color:#2969BD !important; height: 64px; width: 80px; background-size: 25px 64px !important; background-position:center !important }
+	.carrossel-banners-destaque .carousel-indicators li 			{bottom: 0; width: 70px; border: 5px solid rgb(41,105,189,0.5)}
+	.carrossel-banners-destaque .carousel-indicators .active 		{border: 5px solid #2969BD; }
+
+
+	/* Capa EDUCAÇÃO À DISTÂNCIA */
+	.sobre-educacao-a-distancia 			{background: #3AB09E; padding: 20px 0; margin-top: 0}
+	.sobre-educacao-a-distancia .container 		{padding: 0;}
+	.sobre-educacao-a-distancia .item 		{margin: 15px 15px; padding: 50px 15px;}
+	.sobre-educacao-a-distancia .item a 		{border-radius: 5px; padding: 5px 10px 5px 10px; display: block; text-align: center; background: #F7F7F7; white-space: initial;}
+	
+	/* Capa EUAB */
+	.swiper-container img 					{width:initial !important}
+	.participacao-social .swiper-slide a 			{min-height:initial}
+	.participacao-social .swiper-slide span 		{padding:0}
+	.participacao-social .swiper-pagination-bullet 		{width: 15px; height: 5px;}
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+
+	/* Capa FAP */
+	.modal-mapa .itens:first-child 				{border-right:0!important;border-bottom:1px solid #f7f7f7;margin-bottom:50px}
+	.modal-mapa .contatos dt 				{float:none}
+	.modal-mapa .quantitativos 				{padding-top:70px}
+	.modal-mapa .quantitativos span 			{margin-left:0!important;text-align:center;display:block}
+	.modal-mapa .quantitativos span:last-child 		{font-size:1.75rem}
+	.modal-mapa .quantitativos::after 			{left:50%;margin-left:-31px}
+	.modal-mapa .link-com-icone 				{margin-top:50px}
+	
+	/* Redes sociais */
+	.redes-sociais-iframe iframe, 
+	.redes-sociais-iframe .twitter-capes {width: 100% !important;}
+	.facebook-capes {margin-bottom:50px}
+	
+	/* Comum a todos */
+	.arquivos 					{display: block; width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; -ms-overflow-style: -ms-autohiding-scrollbar; }
+	.tile-default a 				{font-size:1.375rem}
+	.conteudo-colunado .outstanding-header h2 	{margin-bottom: 0 !important;}
+	
+	/* Capa BOLSAS E AUXÍLIOS INTERNACIONAIS */
+	.bolsas-bandeiras li 			{width:50%}
+	.bolsas-bandeiras img 			{width: 100%;}
+	.legenda 				{top: 45px !important; font-size: 11px;}
+	.btn-ver-todos 				{margin-bottom:-5px; left:0; }
+	.carrossel-simples 			{margin-top:90px !important; padding-top:30px !important; background:#F1F1F1}
+	.carrossel-simples .espacamento-50 	{margin-bottom:0}
+	.bolsistas 				{margin-top: 60px !important;}
+	.bolsistas:before 			{left: 0 !important; background: url(../img/exemplos/img-bolsistas.jpg) no-repeat center; }
+	.bolsistas:after 			{background: none; }
+	.bolsistas .servicos a 			{width: 100%; padding: 0; background:#da9f04 }
+	.banner-estrangeiro 			{position: relative; right: 0; margin-top: 50px; }
+	
+	
+	/* BANNERS destaque das capas */
+	.carrossel-banners-destaque .carousel-inner .titulo span 		{font-size: 1.2em;}
+	.carrossel-banners-destaque .carousel-inner .titulo span.texto-titulo 	{font-size: 0.9em;}
+	.carrossel-banners-destaque .carousel-indicators li 			{width: 5%; margin-right:initial}
+	.carrossel-banners-destaque .carousel-indicators img 			{display:none !important; }
+	
+	
+	/* Capa RCURSOS EDUCACIONAIS ABERTOS (REA) */
+	.carousel-colunado .item 				{flex-direction: column-reverse;}
+	.carousel-colunado .item .imagem 			{display:none}
+	.carousel-colunado .item .texto 			{min-height:450px; padding:15px}
+	.carousel-colunado .carousel-control-prev 		{left: inherit; right: 20%;}
+	.carousel-colunado .carousel-control-next 		{right: 3%;}
+	#accordion-licencas img 				{width:initial}
+	.licencas-uab .card-header .col-md-2 			{display:none}
+	.licencas-uab .card-header .btn span:last-child 	{font-size:14px !important}
+	.carrossel-links h2 					{margin-bottom:0 !important}
+	
+	/* Página Quem é Quem */
+	.quem-e-quem 					{display: block; width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; -ms-overflow-style: -ms-autohiding-scrollbar; }
+	.quem-e-quem img { width: 16px; height:16px}
+
+
+}
